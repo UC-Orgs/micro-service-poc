@@ -9,5 +9,5 @@ on:
 
 jobs:
   build-and-push:
-    uses: ./.github/workflows/build-push-template.yml
+    uses: ./.github/workflows/templates/build-push-template.yml
     secrets: inherit
